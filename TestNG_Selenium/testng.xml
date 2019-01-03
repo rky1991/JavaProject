@@ -1,0 +1,22 @@
+
+<suite name="Suite">
+  <test  name="TestChrome">
+  <parameter name="ip" value="192.168.43.117"/>
+  <parameter name="browser" value="firefox"/>
+  
+    <classes>
+      <class name="actiTime.GridDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="TestFirefox">
+  <parameter name="ip" value="192.168.43.160"/>
+  <parameter name="browser" value="chrome"/>
+  
+    <classes>
+      <class name="actiTime.GridDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
