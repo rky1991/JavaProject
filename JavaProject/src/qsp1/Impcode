@@ -1,0 +1,14 @@
+		// replace rs.,"," from the text present in gettext()
+		for(int i1=0;i1<text.length();i1++) {
+		String s1 = text.replaceAll("Rs.", "");
+		System.out.println(s1);
+		String s2 = s1.replaceAll(",", "");
+		System.out.println(s2);
+		
+		int price = Integer.parseInt(s2);
+		
+		allpriceNum.add(price);
+	
+		}
+
+		}
