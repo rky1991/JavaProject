@@ -1,0 +1,9 @@
+Methods in ArrayList<>:--
+
+//perform addition on arraylist
+1.add(object): add element at last of list
+2.addAll(collection): add two arrayLists
+3.add(index, element): add at desired index
+4.addAll(index, collection): add complete arryalist at desired index
+
+		
